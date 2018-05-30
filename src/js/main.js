@@ -5,19 +5,73 @@ import PreloadImages from './Slider/PreloadImages';
 class Scrabble{
 	constructor(config){
 		this.config = config;
-		this.images = [];
+
 		new Polyfills();
 
-		document.addEventListener("scrabble-images-loaded", (e) => {
-			console.log("Entro");
+		this.protos = new Map();
+		this.protos.set('config', config);
+		this.protos.set('scrabble', new ScrabbleImage(config));
+		this.protos.set('preload', new PreloadImages(config.images));
+	
+	
+		this.s = new Proxy(this.protos, this.handler());
+		document.addEventListener("scrabble-images-loaded", this.s.imagesLoaded);
+		this.s.initImages();
 
-			const objs=Array.from(document.querySelectorAll("."+config.class));
 
-			objs.forEach((obj)=> {
-				const si = new ScrabbleImage(obj, config);
-			});			
-		})
 	}
+	
+    getProxyThis () {
+        const overrides = {};
+
+        return {
+            get: (target, propKey, receiver) => {
+                const keys = Array.from(this.protos.keys());
+                if (this.protos.has(propKey)) {
+
+                    return new Proxy(this, this.getProxy());
+                }
+
+
+                return false;
+            }
+        }
+    }
+
+	handler () {
+        const overrides = {};
+
+        return {
+            get: (target, propKey, receiver) => {
+                const keys = Array.from(this.protos.keys());
+                let searchedProto = {}
+                keys.forEach((key) => {
+                    const prototype = [overrides].
+                        concat(this.protos.get(key)).
+                        find((proto) => propKey in proto);
+
+                    if (prototype) {
+                        searchedProto = prototype;
+                    }
+                }, this)
+
+                if (searchedProto) {
+
+					if (propKey==='config'){
+						return this[propKey];
+					}
+					const ref = (params) => {
+						console.log(searchedProto[propKey])
+                        return searchedProto[propKey].call(this.s, params);
+                    }
+
+                    return ref;
+                }
+
+                return false;
+            }
+        }
+    }
 }
 
 
@@ -42,18 +96,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
 			showClass: "sequence-images__picture--hide",
 		}
 	}
-
-	const handler = {
-		get: function(target, name){
-			console.log(target)
-			if (name === 'initImage'){
-
-			}
-			return Reflect[name]
-		}
-	};
 	const s = new Scrabble(config);
-	const p = new Proxy(s, handler);
-	const pi = new PreloadImages(config.images, p)
-	pi.initImages();	
 })

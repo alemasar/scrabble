@@ -9,19 +9,30 @@ export default class ScrabbleImage{
 		
 		let contImage = 0;
 		let heightContainer = 0;
-
 	}
+	imagesLoaded(e) {
+		console.log(e.detail.images);
+		const images = e.detail.images;
+		const objs=Array.from(document.querySelectorAll("."+this.config.class));
 
-	addImage(obj, image, config){
+		objs.forEach((obj)=> {
+			images.forEach((image) => {
+				console.log(image)
+				this.addImage({obj, image})
+			})
+		});
+	}
+	addImage(obj){
+		console.log(obj.image)
 		const containerDiv=document.createElement("DIV");
-		containerDiv.className = config.images.class;
+		containerDiv.className = this.config.images.class;
 	
 		const containerPic = document.createElement("PICTURE");
-		containerPic.className = config.images.pictureContainer;
+		containerPic.className = this.config.images.pictureContainer;
 		containerDiv.appendChild(containerPic)
 	
-		containerPic.appendChild(image);
-		obj.querySelector("."+config.images.wrapper).appendChild(containerDiv);
+		containerPic.appendChild(obj.image);
+		obj.obj.querySelector("."+this.config.images.wrapper).appendChild(containerDiv);
 		
 	}
 
@@ -64,5 +75,3 @@ export default class ScrabbleImage{
 	}
 
 }
-
-
