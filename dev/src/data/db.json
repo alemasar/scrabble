@@ -1,0 +1,2199 @@
+{
+    "routes": [
+        {
+            "id": "riders_home",
+            "template": "src/tpls/riders_home.html",
+            "name": "Home",
+            "data": {
+                "name": [
+                    "ridersInfo",
+                    "filters",
+                    "texts"
+                ],
+                "root": "riders_home"
+            },
+            "routeName": "riders_home",
+            "default": "true"
+        },
+        {
+            "id": "riders_profile",
+            "template": "src/tpls/riders_profile.html",
+            "name": "Profile",
+            "data": {
+                "root": "riders_profile",
+                "name": [
+                    "ridersInfo"
+                ]
+            },
+            "routeName": "riders_profile"
+        }
+    ],
+    "riders_home": [
+        {
+            "ridersInfo": [
+                {
+                    "id": 7444,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Marc",
+                    "surname": "MARQUEZ",
+                    "shortestName": "Maq",
+                    "dorsal": 93,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no93-marquez-112?utm_source=linkdorna&utm_medium=rider93_en&utm_campaign=marquez",
+                    "sponsoredTeamId": 83,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1993-02-17",
+                    "placeOfBirth": "Cervera",
+                    "weight": "59",
+                    "height": "168",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7444"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/83"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 83,
+                            "season": 2016,
+                            "riderId": 7444,
+                            "teamId": 14,
+                            "title": "Repsol Honda Team",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/83"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/14"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7444"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 14,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Repsol Honda Team",
+                                    "motorbikeName": "Honda",
+                                    "motorbikeActive": true,
+                                    "color": "ff7f00",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/14"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7444"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Marc+Marquez"
+                },
+                {
+                    "id": 158,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Valentino",
+                    "surname": "ROSSI",
+                    "shortestName": "Ros",
+                    "dorsal": 46,
+                    "color": "",
+                    "countryName": "ITALY",
+                    "countryShortname": "ITA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no46-rossi-109?utm_source=linkdorna&utm_medium=rider46_en&utm_campaign=rossi ",
+                    "sponsoredTeamId": 78,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1979-02-16",
+                    "placeOfBirth": "Urbino",
+                    "weight": "65",
+                    "height": "182",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/158"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/78"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 78,
+                            "season": 2016,
+                            "riderId": 158,
+                            "teamId": 19,
+                            "title": "Movistar Yamaha MotoGP",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/78"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/158"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 19,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Movistar Yamaha MotoGP",
+                                    "motorbikeName": "Yamaha",
+                                    "motorbikeActive": true,
+                                    "color": "0048cb",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/158"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Valentino+Rossi"
+                },
+                {
+                    "id": 6060,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Jorge",
+                    "surname": "LORENZO",
+                    "shortestName": "Lor",
+                    "dorsal": 99,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no99-lorenzo-113?utm_source=linkdorna&utm_medium=rider99_en&utm_campaign=lorenzo",
+                    "sponsoredTeamId": 84,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1987-05-04",
+                    "placeOfBirth": "Palma de Mallorca",
+                    "weight": "64",
+                    "height": "173",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6060"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/84"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 84,
+                            "season": 2016,
+                            "riderId": 6060,
+                            "teamId": 19,
+                            "title": "Movistar Yamaha MotoGP",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/84"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6060"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 19,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Movistar Yamaha MotoGP",
+                                    "motorbikeName": "Yamaha",
+                                    "motorbikeActive": true,
+                                    "color": "0048cb",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/6060"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Jorge+Lorenzo"
+                },
+                {
+                    "id": 7409,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Maverick",
+                    "surname": "VI\u00d1ALES",
+                    "shortestName": "Vi\u00f1",
+                    "dorsal": 25,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no25-vinales-105?utm_source=linkdorna&utm_medium=rider25&utm_campaign=vinales",
+                    "sponsoredTeamId": 69,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1995-01-12",
+                    "placeOfBirth": "Figueres",
+                    "weight": "64",
+                    "height": "171",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7409"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/69"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 69,
+                            "season": 2016,
+                            "riderId": 7409,
+                            "teamId": 37,
+                            "title": "Team SUZUKI ECSTAR",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/69"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/37"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7409"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 37,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Team SUZUKI ECSTAR",
+                                    "motorbikeName": "Suzuki",
+                                    "motorbikeActive": true,
+                                    "color": "2483c5",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/37"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7409"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Maverick+Vi\u00f1ales"
+                },
+                {
+                    "id": 5885,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Andrea",
+                    "surname": "DOVIZIOSO",
+                    "shortestName": "Dov",
+                    "dorsal": 4,
+                    "color": "",
+                    "countryName": "ITALY",
+                    "countryShortname": "ITA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no4-dovizioso?utm_source=linkdorna&utm_medium=rider04&utm_campaign=dovizioso",
+                    "sponsoredTeamId": 64,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1986-03-23",
+                    "placeOfBirth": "Forlimpopoli ",
+                    "weight": "67",
+                    "height": "167",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/5885"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/64"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 64,
+                            "season": 2016,
+                            "riderId": 5885,
+                            "teamId": 15,
+                            "title": "Ducati Team",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/64"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/15"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/5885"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 15,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Ducati Team",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "ff241f",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/15"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/5885"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Andrea+Dovizioso"
+                },
+                {
+                    "id": 5515,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Dani",
+                    "surname": "PEDROSA",
+                    "shortestName": "Ped",
+                    "dorsal": 26,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no26-pedrosa-106?utm_source=linkdorna&utm_medium=rider26_en&utm_campaign=dani ",
+                    "sponsoredTeamId": 70,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1985-09-29",
+                    "placeOfBirth": "Sabadell",
+                    "weight": "51",
+                    "height": "160",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/5515"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/70"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 70,
+                            "season": 2016,
+                            "riderId": 5515,
+                            "teamId": 14,
+                            "title": "Repsol Honda Team",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/70"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/14"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/5515"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 14,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Repsol Honda Team",
+                                    "motorbikeName": "Honda",
+                                    "motorbikeActive": true,
+                                    "color": "ff7f00",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/14"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/5515"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Dani+Pedrosa"
+                },
+                {
+                    "id": 8010,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Cal",
+                    "surname": "CRUTCHLOW",
+                    "shortestName": "Cru",
+                    "dorsal": 35,
+                    "color": "",
+                    "countryName": "GREAT BRITAIN",
+                    "countryShortname": "GBR",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no35-crutchlow-107?utm_source=linkdorna&utm_medium=rider35_en&utm_campaign=crutchlow",
+                    "sponsoredTeamId": 72,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1985-10-29",
+                    "placeOfBirth": "Coventry",
+                    "weight": "70",
+                    "height": "170",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/8010"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/72"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 72,
+                            "season": 2016,
+                            "riderId": 8010,
+                            "teamId": 17,
+                            "title": "LCR Honda",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/72"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/17"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/8010"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 17,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "LCR Honda",
+                                    "motorbikeName": "Honda",
+                                    "motorbikeActive": true,
+                                    "color": "d3ae37",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/17"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/8010"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Cal+Crutchlow"
+                },
+                {
+                    "id": 7086,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Pol",
+                    "surname": "ESPARGARO",
+                    "shortestName": "EsP",
+                    "dorsal": 44,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no44-espargaro-143?utm_source=linkdorna&utm_medium=rider44en&utm_campaign=pol",
+                    "sponsoredTeamId": 76,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1991-06-10",
+                    "placeOfBirth": "Granollers",
+                    "weight": "64",
+                    "height": "171",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7086"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/76"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 76,
+                            "season": 2016,
+                            "riderId": 7086,
+                            "teamId": 11,
+                            "title": "Monster Yamaha Tech 3",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/76"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/11"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7086"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 11,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Monster Yamaha Tech 3",
+                                    "motorbikeName": "Yamaha",
+                                    "motorbikeActive": true,
+                                    "color": "fae600",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/11"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7086"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Pol+Espargaro"
+                },
+                {
+                    "id": 6848,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Andrea",
+                    "surname": "IANNONE",
+                    "shortestName": "Ian",
+                    "dorsal": 29,
+                    "color": "",
+                    "countryName": "ITALY",
+                    "countryShortname": "ITA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no-29-iannone-134?utm_source=linkdorna&utm_medium=rider29&utm_campaign=iannone",
+                    "sponsoredTeamId": 71,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1989-08-09",
+                    "placeOfBirth": "Vasto",
+                    "weight": "67",
+                    "height": "178",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6848"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/71"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 71,
+                            "season": 2016,
+                            "riderId": 6848,
+                            "teamId": 15,
+                            "title": "Ducati Team",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/71"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/15"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6848"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 15,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Ducati Team",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "ff241f",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/15"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/6848"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Andrea+Iannone"
+                },
+                {
+                    "id": 6066,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Hector",
+                    "surname": "BARBERA",
+                    "shortestName": "Bar",
+                    "dorsal": 8,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "",
+                    "sponsoredTeamId": 66,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1986-11-02",
+                    "placeOfBirth": "Dos Aguas",
+                    "weight": "61",
+                    "height": "169",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6066"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/66"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 66,
+                            "season": 2016,
+                            "riderId": 6066,
+                            "teamId": 43,
+                            "title": "Avintia Racing",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/66"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/43"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6066"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 43,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Avintia Racing",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "0d2642",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/43"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/6066"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Hector+Barbera"
+                },
+                {
+                    "id": 6854,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Aleix",
+                    "surname": "ESPARGARO",
+                    "shortestName": "EsA",
+                    "dorsal": 41,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/41-a-esparagaro-159?utm_source=linkdorna&utm_medium=rider41&utm_campaign=aespargaro",
+                    "sponsoredTeamId": 74,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1989-07-30",
+                    "placeOfBirth": "Granollers",
+                    "weight": "71",
+                    "height": "180",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6854"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/74"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 74,
+                            "season": 2016,
+                            "riderId": 6854,
+                            "teamId": 37,
+                            "title": "Team SUZUKI ECSTAR",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/74"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/37"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6854"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 37,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Team SUZUKI ECSTAR",
+                                    "motorbikeName": "Suzuki",
+                                    "motorbikeActive": true,
+                                    "color": "2483c5",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/37"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/6854"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Aleix+Espargaro"
+                },
+                {
+                    "id": 4323,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Alvaro",
+                    "surname": "BAUTISTA",
+                    "shortestName": "Bau",
+                    "dorsal": 19,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no19-bautista?utm_source=linkdorna&utm_medium=rider19&utm_campaign=bautista",
+                    "sponsoredTeamId": 68,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1984-11-21",
+                    "placeOfBirth": "Talavera de la Reina",
+                    "weight": "60",
+                    "height": "169",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/4323"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/68"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 68,
+                            "season": 2016,
+                            "riderId": 4323,
+                            "teamId": 10,
+                            "title": "Aprilia Racing Team Gresini",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/68"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/10"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/4323"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 10,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Aprilia Racing Team Gresini",
+                                    "motorbikeName": "Aprilia",
+                                    "motorbikeActive": true,
+                                    "color": "58cd2e",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/10"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/4323"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Alvaro+Bautista"
+                },
+                {
+                    "id": 6828,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Eugene",
+                    "surname": "LAVERTY",
+                    "shortestName": "Lav",
+                    "dorsal": 50,
+                    "color": "",
+                    "countryName": "IRELAND",
+                    "countryShortname": "IRL",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "",
+                    "sponsoredTeamId": 79,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1986-06-03",
+                    "placeOfBirth": "Toomebridge, Northern Ireland",
+                    "weight": "62",
+                    "height": "173",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6828"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/79"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 79,
+                            "season": 2016,
+                            "riderId": 6828,
+                            "teamId": 16,
+                            "title": "Pull & Bear Aspar Team",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/79"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/16"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/6828"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 16,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Pull & Bear Aspar Team",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "fafafa",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/16"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/6828"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Eugene+Laverty"
+                },
+                {
+                    "id": 8148,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Danilo",
+                    "surname": "PETRUCCI",
+                    "shortestName": "Pet",
+                    "dorsal": 9,
+                    "color": "",
+                    "countryName": "ITALY",
+                    "countryShortname": "ITA",
+                    "active": true,
+                    "legend": null,
+                    "historic": true,
+                    "storeLink": "",
+                    "sponsoredTeamId": 67,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1990-10-24",
+                    "placeOfBirth": "Terni",
+                    "weight": "77",
+                    "height": "180",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/8148"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/67"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 67,
+                            "season": 2016,
+                            "riderId": 8148,
+                            "teamId": 32,
+                            "title": "OCTO Pramac Yakhnich",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/67"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/32"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/8148"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 32,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "OCTO Pramac Yakhnich",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "d13834",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/32"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/8148"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Danilo+Petrucci"
+                },
+                {
+                    "id": 7173,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Scott",
+                    "surname": "REDDING",
+                    "shortestName": "Red",
+                    "dorsal": 45,
+                    "color": "",
+                    "countryName": "GREAT BRITAIN",
+                    "countryShortname": "GBR",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/45-redding-175?utm_source=linkdorna&utm_medium=rider45&utm_campaign=redding",
+                    "sponsoredTeamId": 77,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1993-01-04",
+                    "placeOfBirth": "Quedgeley",
+                    "weight": "78",
+                    "height": "185",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7173"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/77"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 77,
+                            "season": 2016,
+                            "riderId": 7173,
+                            "teamId": 32,
+                            "title": "OCTO Pramac Yakhnich",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/77"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/32"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7173"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 32,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "OCTO Pramac Yakhnich",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "d13834",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/32"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7173"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Scott+Redding"
+                },
+                {
+                    "id": 7030,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Bradley",
+                    "surname": "SMITH",
+                    "shortestName": "Smi",
+                    "dorsal": 38,
+                    "color": "",
+                    "countryName": "GREAT BRITAIN",
+                    "countryShortname": "GBR",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no38-smith?utm_source=linkdorna&utm_medium=rider38&utm_campaign=smith",
+                    "sponsoredTeamId": 73,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1990-11-28",
+                    "placeOfBirth": "Oxford",
+                    "weight": "67",
+                    "height": "179",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7030"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/73"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 73,
+                            "season": 2016,
+                            "riderId": 7030,
+                            "teamId": 11,
+                            "title": "Monster Yamaha Tech 3",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/73"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/11"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7030"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 11,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Monster Yamaha Tech 3",
+                                    "motorbikeName": "Yamaha",
+                                    "motorbikeActive": true,
+                                    "color": "fae600",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/11"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7030"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Bradley+Smith"
+                },
+                {
+                    "id": 8049,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Jack",
+                    "surname": "MILLER",
+                    "shortestName": "Mil",
+                    "dorsal": 43,
+                    "color": "",
+                    "countryName": "AUSTRALIA",
+                    "countryShortname": "AUS",
+                    "active": true,
+                    "legend": null,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/43-miller-196?utm_source=linkdorna&utm_medium=rider43&utm_campaign=miller",
+                    "sponsoredTeamId": 75,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1995-01-18",
+                    "placeOfBirth": "Townsville",
+                    "weight": "70",
+                    "height": "175",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/8049"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/75"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 75,
+                            "season": 2016,
+                            "riderId": 8049,
+                            "teamId": 45,
+                            "title": "Estrella Galicia 0,0 Marc VDS",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/75"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/45"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/8049"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 45,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Estrella Galicia 0,0 Marc VDS",
+                                    "motorbikeName": "Honda",
+                                    "motorbikeActive": true,
+                                    "color": "702538",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/45"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/8049"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Jack+Miller"
+                },
+                {
+                    "id": 7018,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Loris",
+                    "surname": "BAZ",
+                    "shortestName": "Baz",
+                    "dorsal": 76,
+                    "color": "",
+                    "countryName": "FRANCE",
+                    "countryShortname": "FRA",
+                    "active": true,
+                    "legend": null,
+                    "historic": true,
+                    "storeLink": "",
+                    "sponsoredTeamId": 82,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1993-02-01",
+                    "placeOfBirth": "Sallanches",
+                    "weight": "79",
+                    "height": "191",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7018"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/82"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 82,
+                            "season": 2016,
+                            "riderId": 7018,
+                            "teamId": 43,
+                            "title": "Avintia Racing",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/82"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/43"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7018"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 43,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Avintia Racing",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "0d2642",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/43"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7018"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Loris+Baz"
+                },
+                {
+                    "id": 7013,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Tito",
+                    "surname": "RABAT",
+                    "shortestName": "Rab",
+                    "dorsal": 53,
+                    "color": "",
+                    "countryName": "SPAIN",
+                    "countryShortname": "SPA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/53-rabat-202?utm_source=linkdorna&utm_medium=rider53&utm_campaign=rabat",
+                    "sponsoredTeamId": 80,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1989-05-25",
+                    "placeOfBirth": "Barcelona",
+                    "weight": "63",
+                    "height": "178",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7013"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/80"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 80,
+                            "season": 2016,
+                            "riderId": 7013,
+                            "teamId": 45,
+                            "title": "Estrella Galicia 0,0 Marc VDS",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/80"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/45"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7013"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 45,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Estrella Galicia 0,0 Marc VDS",
+                                    "motorbikeName": "Honda",
+                                    "motorbikeActive": true,
+                                    "color": "702538",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/45"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7013"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Tito+Rabat"
+                },
+                {
+                    "id": 7761,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Yonny",
+                    "surname": "HERNANDEZ",
+                    "shortestName": "Her",
+                    "dorsal": 68,
+                    "color": "",
+                    "countryName": "COLOMBIA",
+                    "countryShortname": "COL",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "",
+                    "sponsoredTeamId": 81,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1988-07-25",
+                    "placeOfBirth": "Medell\u00edn",
+                    "weight": "72",
+                    "height": "183",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7761"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/81"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 81,
+                            "season": 2016,
+                            "riderId": 7761,
+                            "teamId": 16,
+                            "title": "Pull & Bear Aspar Team",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/81"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/16"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/7761"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 16,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Pull & Bear Aspar Team",
+                                    "motorbikeName": "Ducati",
+                                    "motorbikeActive": true,
+                                    "color": "fafafa",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/16"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "imagesRider": {
+                        "grid": {
+                            "1512": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/176x287\/rider_8825_1457979865.jpg",
+                            "square_m": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg"
+                        },
+                        "number": {
+                            "1512": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/7761"
+                        }
+                    },
+                    "link": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Yonny+Hernandez"
+                }
+            ],
+            "filters": {
+                "elements": {
+                    "order": {
+                        "id": "order",
+                        "meta": {
+                            "options": {
+                                "option1": {
+                                    "text": "By world standing",
+                                    "label": "By world standing",
+                                    "option": {
+                                        "param1": {
+                                            "name": "value",
+                                            "value": "championship"
+                                        },
+                                        "param2": {
+                                            "name": "selected",
+                                            "value": ""
+                                        }
+                                    }
+                                },
+                                "option2": {
+                                    "text": "By rider number",
+                                    "label": "By rider number",
+                                    "option": {
+                                        "param1": {
+                                            "name": "value",
+                                            "value": "dorsal"
+                                        }
+                                    }
+                                },
+                                "option3": {
+                                    "text": "By rider name",
+                                    "label": "By rider name",
+                                    "option": {
+                                        "param1": {
+                                            "name": "value",
+                                            "value": "name"
+                                        }
+                                    }
+                                }
+                            },
+                            "action": {
+                                "action1": {
+                                    "type": "change",
+                                    "more": "HTML2",
+                                    "action": "ajax",
+                                    "callbackFn": "riders.callStart",
+                                    "errorFn": "riders.callStop",
+                                    "config": {
+                                        "url": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/ajax",
+                                        "method": "GET",
+                                        "type": "html"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "categories": {
+                        "id": "category",
+                        "meta": {
+                            "options": {
+                                "option1": {
+                                    "text": "MotoGP",
+                                    "label": "MotoGP",
+                                    "option": {
+                                        "param1": {
+                                            "name": "value",
+                                            "value": "MotoGP"
+                                        },
+                                        "param2": {
+                                            "name": "data-url-push",
+                                            "value": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/MotoGP"
+                                        },
+                                        "param3": {
+                                            "name": "data-category-id",
+                                            "value": 3
+                                        },
+                                        "param4": {
+                                            "name": "selected",
+                                            "value": ""
+                                        }
+                                    }
+                                },
+                                "option2": {
+                                    "text": "Moto2",
+                                    "label": "Moto2",
+                                    "option": {
+                                        "param1": {
+                                            "name": "value",
+                                            "value": "Moto2"
+                                        },
+                                        "param2": {
+                                            "name": "data-url-push",
+                                            "value": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Moto2"
+                                        },
+                                        "param3": {
+                                            "name": "data-category-id",
+                                            "value": 2
+                                        }
+                                    }
+                                },
+                                "option3": {
+                                    "text": "Moto3",
+                                    "label": "Moto3",
+                                    "option": {
+                                        "param1": {
+                                            "name": "value",
+                                            "value": "Moto3"
+                                        },
+                                        "param2": {
+                                            "name": "data-url-push",
+                                            "value": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/Moto3"
+                                        },
+                                        "param3": {
+                                            "name": "data-category-id",
+                                            "value": 1
+                                        }
+                                    }
+                                },
+                                "option4": {
+                                    "label": "-------------------------",
+                                    "option": {
+                                        "param1": {
+                                            "name": "disabled",
+                                            "value": ""
+                                        }
+                                    }
+                                },
+                                "option5": {
+                                    "text": "MotoGP Legends",
+                                    "label": "MotoGP Legends",
+                                    "option": {
+                                        "param1": {
+                                            "name": "value",
+                                            "value": "MotoGP+Legends"
+                                        },
+                                        "param2": {
+                                            "name": "data-url-push",
+                                            "value": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/MotoGP+Legends"
+                                        },
+                                        "param3": {
+                                            "name": "data-category-id",
+                                            "value": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "action": {
+                                "action1": {
+                                    "type": "change",
+                                    "more": "HTML2",
+                                    "action": "ajax",
+                                    "callbackFn": "riders.callStart",
+                                    "errorFn": "riders.callStop",
+                                    "config": {
+                                        "url": "http:\/\/web2015.aleixmasague.motogp.com:8080\/en\/riders\/ajax",
+                                        "method": "GET",
+                                        "type": "html"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "product": "mgp",
+            "texts": {
+                "title": "Riders",
+                "name": "name",
+                "team": "team",
+                "motorcycle": "motorcycle",
+                "store": "store"
+            }
+        }
+    ],
+    "riders_profile": [
+        {
+            "ridersInfo": {
+                "detailFilters": {
+                    "tpl": "detail_filters.html",
+                    "data": {
+                        "breads": {
+                            "link1": {
+                                "link": "http:\/\/axelclaverwww.motogp.com:8080\/riders\/MotoGP\/",
+                                "name": "Inicio"
+                            },
+                            "link2": {
+                                "link": "http:\/\/axelclaverwww.motogp.com:8080\/riders\/Valentino+Rossi",
+                                "name": "MotoGP"
+                            }
+                        }
+                    }
+                },
+                "generalData": {
+                    "tpl": "general_data.html",
+                    "data": {
+                        "riderInfo": {
+                            "id": 158,
+                            "season": 2016,
+                            "category": 3,
+                            "name": "Valentino",
+                            "surname": "ROSSI",
+                            "shortestName": "Ros",
+                            "dorsal": 46,
+                            "color": "",
+                            "countryName": "ITALY",
+                            "countryShortname": "ITA",
+                            "active": true,
+                            "legend": false,
+                            "historic": true,
+                            "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no46-rossi-109?utm_source=linkdorna&utm_medium=rider46_en&utm_campaign=rossi ",
+                            "sponsoredTeamId": 78,
+                            "images": {
+                                "number": true
+                            },
+                            "dateOfBirth": "1979-02-16",
+                            "placeOfBirth": "Urbino",
+                            "weight": "65",
+                            "height": "182",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/158"
+                                },
+                                "sponsoredTeam": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/78"
+                                }
+                            },
+                            "_embedded": {
+                                "sponsoredTeam": {
+                                    "id": 78,
+                                    "season": 2016,
+                                    "riderId": 158,
+                                    "teamId": 19,
+                                    "title": "Movistar Yamaha MotoGP",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/78"
+                                        },
+                                        "team": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                        },
+                                        "rider": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/158"
+                                        }
+                                    },
+                                    "_embedded": {
+                                        "team": {
+                                            "id": 19,
+                                            "season": 2016,
+                                            "active": false,
+                                            "name": "Movistar Yamaha MotoGP",
+                                            "motorbikeName": "Yamaha",
+                                            "motorbikeActive": true,
+                                            "color": "0048cb",
+                                            "_links": {
+                                                "self": {
+                                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "stats": {
+                                    "motoGP": "9",
+                                    "moto2": "2",
+                                    "moto3": "1"
+                                }
+                            },
+                            "imagesRider": {
+                                "primaryPhoto": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/portrait\/325x759\/rider_8825_1457979868.jpg",
+                                "mobilePhoto": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg",
+                                "backgroundImg": "http:\/\/photos.motogp.com\/2016\/07\/17\/08-hector-barbera-esp-46-valentino-rossi-ita_gp_9681.gallery_full_top_fullscreen.jpg",
+                                "number": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/158"
+                            },
+                            "actualPoints": 249,
+                            "position": 2,
+                            "videos": "http:\/\/www.motogp.com\/es\/videos\/todos\/",
+                            "photos": "http:\/\/www.motogp.com\/en\/gallery\/2016\/07\/18\/valentino-rossi\/201811"
+                        }
+                    }
+                },
+                "statisticsChampionship": {
+                    "tpl": "statistics_championship.html",
+                    "data": {
+                        "title": "ESTAD\u00cdSTICAS DEL CAMPEONATO",
+                        "statistics": {
+                            "winsChart": {
+                                "values": {
+                                    "motogp": 43,
+                                    "moto250": 17,
+                                    "moto125": 4
+                                },
+                                "inner_text": "WINS"
+                            },
+                            "polesChart": {
+                                "values": {
+                                    "motogp": 38,
+                                    "moto250": 23,
+                                    "moto125": 3
+                                },
+                                "inner_text": "POLES"
+                            },
+                            "podiumsChart": {
+                                "values": {
+                                    "motogp": 105,
+                                    "moto250": 29,
+                                    "moto125": 9
+                                },
+                                "inner_text": "PODIUMS"
+                            },
+                            "fastestChart": {
+                                "values": {
+                                    "motogp": 27,
+                                    "moto250": 4,
+                                    "moto125": 3
+                                },
+                                "inner_text": "FASTEST LAPS"
+                            },
+                            "startsChart": {
+                                "values": {
+                                    "motogp": 152,
+                                    "moto250": 48,
+                                    "moto125": 46
+                                },
+                                "inner_text": "STARTS"
+                            }
+                        }
+                    }
+                },
+                "bioRider": {
+                    "tpl": "bio_rider.html",
+                    "data": {
+                        "title": "BIOGRAF\u00cdA",
+                        "id": "666",
+                        "isLegend": "false",
+                        "name": "Valentino",
+                        "surname": "Rossi",
+                        "teamColor": "0048cb",
+                        "motorBike": "yamaha",
+                        "description": "<p class=\"c-riders__profile-txt\">Valentino Rossi entered Grand Prix racing in 1996 and his natural skill and charisma quickly made him a huge fan favourite. The nine-time World Champion\u2019s remarkable career is defined by record-breaking achievements - including being the <strong>only rider in history to lift 125, 250, 500 and MotoGP\u2122 titles<\/strong> - and is the sole premier class winner on 500cc, 990cc and 800cc machinery.<\/p>\r\n                    <p class=\"c-riders__profile-txt\">The Italian dominated the MotoGP\u2122 four-stroke series on-board the Honda RC211V, then switched to Yamaha in 2004, with his win at the opening round in South Africa making him only the second rider ever to win consecutive races for different factories. His 2011 move to Ducati was marked by constant challenge as the manufacturer struggled against the Japanese competition.<\/p>\r\n                    <p class=\"c-riders__profile-txt\">The Italian dominated the MotoGP\u2122 four-stroke series on-board the Honda RC211V, then switched to Yamaha in 2004, with his win at the opening round in South Africa making him only the second rider ever to win consecutive races for different factories. His 2011 move to Ducati was marked by constant challenge as the manufacturer struggled against the Japanese competition.<\/p>\r\n                    <p class=\"c-riders__profile-txt\">Rossi entered 2012 with the intent to regain his spot amongst the front-runners yet, despite two podium finishes, did not enjoy a significant turnaround. In 2013 he returned to his old Yamaha team, rejoining forces with Jorge Lorenzo; the challenge began with second place in Qatar and \u2018The Doctor\u2019 was back to winning ways at Assen, but despite six rostrum results ended the year 97 points behind rookie title winner Marc Marquez in fourth overall. For 2014, Rossi began working with new Crew Chief Silvano Galbusera and changed his riding style \u2013 reinventing himself and improving results to take two more wins, 13 podiums and the runner-up spot in the championship. He is signed to remain with Yamaha in 2015 and 2016 and was a title contender till the final round in Valencia. Rossi would claim four wins and begin the 2015 season with a run of 12 podium finishes, taking a total of 15 during the year. Malaysia marked a dark spot in both Rossi\u2019s season and career as an off track feud with Marquez reached a dramatic end on track, resulting in Rossi starting from the back of the grid in Valencia. The Doctor lost out on a tenth title by five points to Jorge Lorenzo, determined to take title number ten in 2016.<\/p>",
+                        "slides": {
+                            "slide1": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "http:\/\/2.bp.blogspot.com\/-IXSGQ0fPQjE\/TtZjj_QIz3I\/AAAAAAAABXA\/yp0eN-gKiIk\/s1600\/rendervalentinorossi.png",
+                                "linkTo": "#"
+                            },
+                            "slide2": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "http:\/\/www.newsbeast.gr\/files\/1\/2013\/11\/12\/Kazutosh1.png",
+                                "linkTo": "#"
+                            },
+                            "slide3": {
+                                "title": "Valentino Rossi",
+                                "type": "img",
+                                "link": "http:\/\/2.bp.blogspot.com\/-IXSGQ0fPQjE\/TtZjj_QIz3I\/AAAAAAAABXA\/yp0eN-gKiIk\/s1600\/rendervalentinorossi.png",
+                                "linkTo": "#"
+                            },
+                            "slide4": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "http:\/\/www.newsbeast.gr\/files\/1\/2013\/11\/12\/Kazutosh1.png",
+                                "linkTo": "#"
+                            },
+                            "slide5": {
+                                "title": "Valentino Rossi",
+                                "type": "img",
+                                "link": "http:\/\/2.bp.blogspot.com\/-IXSGQ0fPQjE\/TtZjj_QIz3I\/AAAAAAAABXA\/yp0eN-gKiIk\/s1600\/rendervalentinorossi.png",
+                                "linkTo": "#"
+                            }
+                        }
+                    }
+                },
+                "motoInfo": {
+                    "tpl": "moto_info.html",
+                    "data": {
+                        "title": "YAMAHA YZF M1 2016",
+                        "id": "666",
+                        "slides": {
+                            "slide1": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "http:\/\/www.ride-in-tours.com\/images\/stories\/circuit\/tour-with-bike\/motogp\/motogp-rossi.png",
+                                "linkTo": "#"
+                            },
+                            "slide2": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "https:\/\/files.graphiq.com\/778\/media\/images\/2012_Suzuki_GSX-R750_292128.png",
+                                "linkTo": "#"
+                            },
+                            "slide3": {
+                                "title": "Valentino Rossi",
+                                "type": "img",
+                                "link": "http:\/\/www.ride-in-tours.com\/images\/stories\/circuit\/tour-with-bike\/motogp\/motogp-rossi.png",
+                                "linkTo": "#"
+                            },
+                            "slide4": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "https:\/\/files.graphiq.com\/778\/media\/images\/2012_Suzuki_GSX-R750_292128.png",
+                                "linkTo": "#"
+                            },
+                            "slide5": {
+                                "title": "Valentino Rossi",
+                                "type": "img",
+                                "link": "http:\/\/www.ride-in-tours.com\/images\/stories\/circuit\/tour-with-bike\/motogp\/motogp-rossi.png",
+                                "linkTo": "#"
+                            }
+                        },
+                        "_embedded": {
+                            "sponsoredTeam": {
+                                "title": "Movistar Yamaha MotoGP",
+                                "dorsal": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/158",
+                                "color": "0048cb",
+                                "_embedded": {
+                                    "motorbikeName": "Yamaha"
+                                }
+                            },
+                            "stats": {
+                                "motoGP": "9",
+                                "moto2": "2",
+                                "moto3": "1"
+                            }
+                        },
+                        "characteristics": {
+                            "motor": "1000cc Liquid cooled",
+                            "chassis": "Aluminium twin tube delta box with...",
+                            "transmission": "Six-speed cassette-type gearbox with...",
+                            "wheels": "MFR Forged Magnesium 16.5 front, 16.5 rear",
+                            "brakes": "Brembo, two 320mm or 340mm carbon front discs, two four piston...",
+                            "power": "over 240 horsepower - 176KW",
+                            "suspension": "\u00d6hlins upside down forks and \u00d6hlins rear shock...",
+                            "tyres": "Michelin, 17\" front and rear, available...",
+                            "weight": "157 kg, in a accordance with FIM regulations"
+                        }
+                    }
+                },
+                "historicYear": {
+                    "tpl": "historic_year.html",
+                    "data": {
+                        "title": "HIST\u00d3RICO DE CARRERAS",
+                        "teamColor": "0048cb",
+                        "dataUrl": "http:\/\/axelclaverwww.motogp.com:8080\/en\/riders\/statistics\/158"
+                    }
+                },
+                "summaryYear": {
+                    "tpl": "summary_year.html",
+                    "data": {
+                        "title": "RESUMEN POR A\u00d1OS",
+                        "years": {
+                            "2001": {
+                                "totalRaces": "18",
+                                "category": "MotoGP",
+                                "pos": "1",
+                                "points": "182",
+                                "bike": "Yamaha",
+                                "colorTeam": "2b9fd8",
+                                "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                                "graphs": {
+                                    "1ST": "10",
+                                    "2ND": "9",
+                                    "3RD": "3",
+                                    "POLES": "3",
+                                    "STARTS": "3",
+                                    "FASTEST LAPS": "10"
+                                }
+                            },
+                            "2002": {
+                                "totalRaces": "18",
+                                "category": "Moto2",
+                                "pos": "2",
+                                "points": "182",
+                                "bike": "Yamaha",
+                                "colorTeam": "a2ea5a",
+                                "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                                "graphs": {
+                                    "1ST": "6",
+                                    "2ND": "3",
+                                    "3RD": "14",
+                                    "POLES": "3",
+                                    "STARTS": "12",
+                                    "FASTEST LAPS": "3"
+                                }
+                            },
+                            "2003": {
+                                "totalRaces": "20",
+                                "category": "Moto1",
+                                "pos": "3",
+                                "points": "182",
+                                "bike": "Yamaha",
+                                "colorTeam": "dc6542",
+                                "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                                "graphs": {
+                                    "1ST": "8",
+                                    "2ND": "12",
+                                    "3RD": "15",
+                                    "POLES": "3",
+                                    "STARTS": "3",
+                                    "FASTEST LAPS": "3"
+                                }
+                            },
+                            "2004": {
+                                "totalRaces": "18",
+                                "category": "Moto1",
+                                "pos": "2",
+                                "points": "182",
+                                "bike": "Yamaha",
+                                "colorTeam": "2b9fd8",
+                                "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                                "graphs": {
+                                    "1ST": "12",
+                                    "2ND": "3",
+                                    "3RD": "16",
+                                    "POLES": "3",
+                                    "STARTS": "15",
+                                    "FASTEST LAPS": "3"
+                                }
+                            },
+                            "2005": {
+                                "totalRaces": "18",
+                                "category": "Moto1",
+                                "pos": "1",
+                                "points": "182",
+                                "bike": "Yamaha",
+                                "colorTeam": "c43e27",
+                                "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                                "graphs": {
+                                    "1ST": "11",
+                                    "2ND": "6",
+                                    "3RD": "9",
+                                    "POLES": "15",
+                                    "STARTS": "3",
+                                    "FASTEST LAPS": "3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "slider": {
+                    "tpl": "slider_content.html",
+                    "data": {
+                        "title": "MULTIMEDIA",
+                        "slides": {
+                            "slide1": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "http:\/\/i.eurosport.com\/2015\/11\/08\/1728600-36570346-2560-1440.jpg?w=1050",
+                                "linkTo": "#"
+                            },
+                            "slide2": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "http:\/\/i.eurosport.com\/2016\/09\/03\/1925199-40499465-2560-1440.jpg?w=1050",
+                                "linkTo": "#"
+                            },
+                            "slide3": {
+                                "title": "Valentino Rossi",
+                                "type": "img",
+                                "link": "http:\/\/i.eurosport.com\/2016\/04\/23\/1841399-38825211-2560-1440.jpg?w=1050",
+                                "linkTo": "#"
+                            },
+                            "slide4": {
+                                "title": "Valentino Rossi",
+                                "type": "video",
+                                "link": "http:\/\/i.eurosport.com\/2016\/04\/24\/1842451-38846251-2560-1440.jpg?w=1050",
+                                "linkTo": "#"
+                            },
+                            "slide5": {
+                                "title": "Valentino Rossi",
+                                "type": "img",
+                                "link": "https:\/\/4.bp.blogspot.com\/-GGymDZF6f7M\/Vx3mqoCMvyI\/AAAAAAAACTM\/tlXAE2HTpzMWtq6Ea_SVjGm5H0wqLTlsACLcB\/s1600\/1841498-38827191-2560-1440.jpg",
+                                "linkTo": "#"
+                            }
+                        }
+                    }
+                },
+                "sliderStore": {
+                    "tpl": "slider_store.html",
+                    "data": {
+                        "title": "MERCHANDISING",
+                        "ajax": "http:\/\/store.motogp.com\/es\/api\/rider\/109"
+                    }
+                },
+                "otherContent": {
+                    "tpl": "other_content.html",
+                    "data": {
+                        "title": "\u00daLTIMAS ACTUALIZACIONES RELACIONADAS",
+                        "rider_name": "Valentino Rossi",
+                        "bk_gradient": "http:\/\/axelclaverwww.motogp.com:8080\/themes\/default\/css.motogp.com\/img\/riders\/new\/rider_bg_shortcuts.png",
+                        "rider_img": "http:\/\/1.bp.blogspot.com\/-6cugLjNH7nY\/UEynT3simcI\/AAAAAAAAUZM\/4kggBTONPT4\/s1600\/852346615_R12_Davies_finish.jpg",
+                        "link_news": "http:\/\/axelclaverwww.motogp.com:8080\/en\/",
+                        "link_videos": "http:\/\/axelclaverwww.motogp.com:8080\/en\/videos\/",
+                        "link_social": "http:\/\/buzz.motogp.com",
+                        "link_photos": "http:\/\/axelclaverwww.motogp.com:8080\/en\/photos\/"
+                    }
+                }
+            }
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

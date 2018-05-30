@@ -1,0 +1,60 @@
+body{
+	background-color:#ffff00;
+
+	.sequence-images-landscape-container{
+		position: absolute;
+		width:100%;
+		height: 100%;
+		overflow: hidden;
+		/*display:none;*/
+	}
+
+	.scrabble-wrap picture img{
+		position: absolute;
+		top: 0; 
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.scrabble-wrap .sequence-images-landscape-container.sequence-images__picture--hide{
+		display: none;
+	}
+	
+	.sequence-images-controls-wrap{
+		height:40px;
+		position:relative;
+		.sequence-images-controls-timeline-wrap{
+			height:5px;
+			position:absolute;
+			top:50%;
+			margin-top:-3px;
+			left:0px;
+			.sequence-images-controls-timeline{
+				/*background: black url("/dist/images/scrabble_timeline.svg") no-repeat top left;*/
+				background-color:#fff;
+				width:500px;
+				height:100%;
+				border-radius:5px;
+				box-shadow: 2px 0px 20px 0px rgba(0,0,0,0.7);
+			}
+		}
+		.sequence-images-controls-slider{
+			background: transparent url("/dist/images/scrabble_button.svg") no-repeat top left;
+			width:30px;
+			height:30px;
+			position:absolute;
+			top:50%;
+			margin-top:-15px;
+			left:0px;
+			cursor: move; /* fallback if grab cursor is unsupported */
+			cursor: grab;
+			cursor: -moz-grab;
+			cursor: -webkit-grab;
+			transition: left 0.1s;
+		}
+		.sequence-images-controls-slider.move{
+			/*transform:translateX(100);*/
+		}
+	}
+
+}

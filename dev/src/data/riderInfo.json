@@ -1,0 +1,425 @@
+{
+    "ridersInfo": {
+        "detailFilters": {
+            "tpl": "detail_filters.html",
+            "data": {
+                "breads": {
+                    "link1": {
+                        "link": "http:\/\/axelclaverwww.motogp.com:8080\/riders\/MotoGP\/",
+                        "name": "Inicio"
+                    },
+                    "link2": {
+                        "link": "http:\/\/axelclaverwww.motogp.com:8080\/riders\/Valentino+Rossi",
+                        "name": "MotoGP"
+                    }
+                }
+            }
+        },
+        "generalData": {
+            "tpl": "general_data.html",
+            "data": {
+                "riderInfo": {
+                    "id": 158,
+                    "season": 2016,
+                    "category": 3,
+                    "name": "Valentino",
+                    "surname": "ROSSI",
+                    "shortestName": "Ros",
+                    "dorsal": 46,
+                    "color": "",
+                    "countryName": "ITALY",
+                    "countryShortname": "ITA",
+                    "active": true,
+                    "legend": false,
+                    "historic": true,
+                    "storeLink": "http:\/\/store.motogp.com\/en\/riders-101\/no46-rossi-109?utm_source=linkdorna&utm_medium=rider46_en&utm_campaign=rossi ",
+                    "sponsoredTeamId": 78,
+                    "images": {
+                        "number": true
+                    },
+                    "dateOfBirth": "1979-02-16",
+                    "placeOfBirth": "Urbino",
+                    "weight": "65",
+                    "height": "182",
+                    "_links": {
+                        "self": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/158"
+                        },
+                        "sponsoredTeam": {
+                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/78"
+                        }
+                    },
+                    "_embedded": {
+                        "sponsoredTeam": {
+                            "id": 78,
+                            "season": 2016,
+                            "riderId": 158,
+                            "teamId": 19,
+                            "title": "Movistar Yamaha MotoGP",
+                            "_links": {
+                                "self": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/sponsoredteams\/78"
+                                },
+                                "team": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                },
+                                "rider": {
+                                    "href": "http:\/\/devchampionshipapi.motogp.com\/api\/riders\/158"
+                                }
+                            },
+                            "_embedded": {
+                                "team": {
+                                    "id": 19,
+                                    "season": 2016,
+                                    "active": false,
+                                    "name": "Movistar Yamaha MotoGP",
+                                    "motorbikeName": "Yamaha",
+                                    "motorbikeActive": true,
+                                    "color": "0048cb",
+                                    "_links": {
+                                        "self": {
+                                            "href": "http:\/\/devchampionshipapi.motogp.com\/api\/teams\/19"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "stats": {
+                            "motoGP": "9",
+                            "moto2": "2",
+                            "moto3": "1"
+                        }
+                    },
+                    "imagesRider": {
+                        "primaryPhoto": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/portrait\/325x759\/rider_8825_1457979868.jpg",
+                        "mobilePhoto": "http:\/\/photos.motogp.com\/2016\/riders\/wildcard\/grid\/165x165\/rider_8825_1457979865.jpg",
+                        "backgroundImg": "http:\/\/photos.motogp.com\/2016\/07\/17\/08-hector-barbera-esp-46-valentino-rossi-ita_gp_9681.gallery_full_top_fullscreen.jpg",
+                        "number": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/158"
+                    },
+                    "actualPoints": 249,
+                    "position": 2,
+                    "videos": "http:\/\/www.motogp.com\/es\/videos\/todos\/",
+                    "photos": "http:\/\/www.motogp.com\/en\/gallery\/2016\/07\/18\/valentino-rossi\/201811"
+                }
+            }
+        },
+        "statisticsChampionship": {
+            "tpl": "statistics_championship.html",
+            "data": {
+                "title": "ESTAD\u00cdSTICAS DEL CAMPEONATO",
+                "statistics": {
+                    "winsChart": {
+                        "values": {
+                            "motogp": 43,
+                            "moto250": 17,
+                            "moto125": 4
+                        },
+                        "inner_text": "WINS"
+                    },
+                    "polesChart": {
+                        "values": {
+                            "motogp": 38,
+                            "moto250": 23,
+                            "moto125": 3
+                        },
+                        "inner_text": "POLES"
+                    },
+                    "podiumsChart": {
+                        "values": {
+                            "motogp": 105,
+                            "moto250": 29,
+                            "moto125": 9
+                        },
+                        "inner_text": "PODIUMS"
+                    },
+                    "fastestChart": {
+                        "values": {
+                            "motogp": 27,
+                            "moto250": 4,
+                            "moto125": 3
+                        },
+                        "inner_text": "FASTEST LAPS"
+                    },
+                    "startsChart": {
+                        "values": {
+                            "motogp": 152,
+                            "moto250": 48,
+                            "moto125": 46
+                        },
+                        "inner_text": "STARTS"
+                    }
+                }
+            }
+        },
+        "bioRider": {
+            "tpl": "bio_rider.html",
+            "data": {
+                "title": "BIOGRAF\u00cdA",
+                "id": "666",
+                "isLegend": "false",
+                "name": "Valentino",
+                "surname": "Rossi",
+                "teamColor": "0048cb",
+                "motorBike": "yamaha",
+                "description": "<p class=\"c-riders__profile-txt\">Valentino Rossi entered Grand Prix racing in 1996 and his natural skill and charisma quickly made him a huge fan favourite. The nine-time World Champion\u2019s remarkable career is defined by record-breaking achievements - including being the <strong>only rider in history to lift 125, 250, 500 and MotoGP\u2122 titles<\/strong> - and is the sole premier class winner on 500cc, 990cc and 800cc machinery.<\/p>\r\n                    <p class=\"c-riders__profile-txt\">The Italian dominated the MotoGP\u2122 four-stroke series on-board the Honda RC211V, then switched to Yamaha in 2004, with his win at the opening round in South Africa making him only the second rider ever to win consecutive races for different factories. His 2011 move to Ducati was marked by constant challenge as the manufacturer struggled against the Japanese competition.<\/p>\r\n                    <p class=\"c-riders__profile-txt\">The Italian dominated the MotoGP\u2122 four-stroke series on-board the Honda RC211V, then switched to Yamaha in 2004, with his win at the opening round in South Africa making him only the second rider ever to win consecutive races for different factories. His 2011 move to Ducati was marked by constant challenge as the manufacturer struggled against the Japanese competition.<\/p>\r\n                    <p class=\"c-riders__profile-txt\">Rossi entered 2012 with the intent to regain his spot amongst the front-runners yet, despite two podium finishes, did not enjoy a significant turnaround. In 2013 he returned to his old Yamaha team, rejoining forces with Jorge Lorenzo; the challenge began with second place in Qatar and \u2018The Doctor\u2019 was back to winning ways at Assen, but despite six rostrum results ended the year 97 points behind rookie title winner Marc Marquez in fourth overall. For 2014, Rossi began working with new Crew Chief Silvano Galbusera and changed his riding style \u2013 reinventing himself and improving results to take two more wins, 13 podiums and the runner-up spot in the championship. He is signed to remain with Yamaha in 2015 and 2016 and was a title contender till the final round in Valencia. Rossi would claim four wins and begin the 2015 season with a run of 12 podium finishes, taking a total of 15 during the year. Malaysia marked a dark spot in both Rossi\u2019s season and career as an off track feud with Marquez reached a dramatic end on track, resulting in Rossi starting from the back of the grid in Valencia. The Doctor lost out on a tenth title by five points to Jorge Lorenzo, determined to take title number ten in 2016.<\/p>",
+                "slides": {
+                    "slide1": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "http:\/\/2.bp.blogspot.com\/-IXSGQ0fPQjE\/TtZjj_QIz3I\/AAAAAAAABXA\/yp0eN-gKiIk\/s1600\/rendervalentinorossi.png",
+                        "linkTo": "#"
+                    },
+                    "slide2": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "http:\/\/www.newsbeast.gr\/files\/1\/2013\/11\/12\/Kazutosh1.png",
+                        "linkTo": "#"
+                    },
+                    "slide3": {
+                        "title": "Valentino Rossi",
+                        "type": "img",
+                        "link": "http:\/\/2.bp.blogspot.com\/-IXSGQ0fPQjE\/TtZjj_QIz3I\/AAAAAAAABXA\/yp0eN-gKiIk\/s1600\/rendervalentinorossi.png",
+                        "linkTo": "#"
+                    },
+                    "slide4": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "http:\/\/www.newsbeast.gr\/files\/1\/2013\/11\/12\/Kazutosh1.png",
+                        "linkTo": "#"
+                    },
+                    "slide5": {
+                        "title": "Valentino Rossi",
+                        "type": "img",
+                        "link": "http:\/\/2.bp.blogspot.com\/-IXSGQ0fPQjE\/TtZjj_QIz3I\/AAAAAAAABXA\/yp0eN-gKiIk\/s1600\/rendervalentinorossi.png",
+                        "linkTo": "#"
+                    }
+                }
+            }
+        },
+        "motoInfo": {
+            "tpl": "moto_info.html",
+            "data": {
+                "title": "YAMAHA YZF M1 2016",
+                "id": "666",
+                "slides": {
+                    "slide1": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "http:\/\/www.ride-in-tours.com\/images\/stories\/circuit\/tour-with-bike\/motogp\/motogp-rossi.png",
+                        "linkTo": "#"
+                    },
+                    "slide2": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "https:\/\/files.graphiq.com\/778\/media\/images\/2012_Suzuki_GSX-R750_292128.png",
+                        "linkTo": "#"
+                    },
+                    "slide3": {
+                        "title": "Valentino Rossi",
+                        "type": "img",
+                        "link": "http:\/\/www.ride-in-tours.com\/images\/stories\/circuit\/tour-with-bike\/motogp\/motogp-rossi.png",
+                        "linkTo": "#"
+                    },
+                    "slide4": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "https:\/\/files.graphiq.com\/778\/media\/images\/2012_Suzuki_GSX-R750_292128.png",
+                        "linkTo": "#"
+                    },
+                    "slide5": {
+                        "title": "Valentino Rossi",
+                        "type": "img",
+                        "link": "http:\/\/www.ride-in-tours.com\/images\/stories\/circuit\/tour-with-bike\/motogp\/motogp-rossi.png",
+                        "linkTo": "#"
+                    }
+                },
+                "_embedded": {
+                    "sponsoredTeam": {
+                        "title": "Movistar Yamaha MotoGP",
+                        "dorsal": "http:\/\/appdata2016.motogp.com\/7c1f9ded9c5d9d54079597eabd9780f3\/ridernumber\/3\/158",
+                        "color": "0048cb",
+                        "_embedded": {
+                            "motorbikeName": "Yamaha"
+                        }
+                    },
+                    "stats": {
+                        "motoGP": "9",
+                        "moto2": "2",
+                        "moto3": "1"
+                    }
+                },
+                "characteristics": {
+                    "motor": "1000cc Liquid cooled",
+                    "chassis": "Aluminium twin tube delta box with...",
+                    "transmission": "Six-speed cassette-type gearbox with...",
+                    "wheels": "MFR Forged Magnesium 16.5 front, 16.5 rear",
+                    "brakes": "Brembo, two 320mm or 340mm carbon front discs, two four piston...",
+                    "power": "over 240 horsepower - 176KW",
+                    "suspension": "\u00d6hlins upside down forks and \u00d6hlins rear shock...",
+                    "tyres": "Michelin, 17\" front and rear, available...",
+                    "weight": "157 kg, in a accordance with FIM regulations"
+                }
+            }
+        },
+        "historicYear": {
+            "tpl": "historic_year.html",
+            "data": {
+                "title": "HIST\u00d3RICO DE CARRERAS",
+                "teamColor": "0048cb",
+                "dataUrl": "http:\/\/axelclaverwww.motogp.com:8080\/en\/riders\/statistics\/158"
+            }
+        },
+        "summaryYear": {
+            "tpl": "summary_year.html",
+            "data": {
+                "title": "RESUMEN POR A\u00d1OS",
+                "years": {
+                    "2001": {
+                        "totalRaces": "18",
+                        "category": "MotoGP",
+                        "pos": "1",
+                        "points": "182",
+                        "bike": "Yamaha",
+                        "colorTeam": "2b9fd8",
+                        "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                        "graphs": {
+                            "1ST": "10",
+                            "2ND": "9",
+                            "3RD": "3",
+                            "POLES": "3",
+                            "STARTS": "3",
+                            "FASTEST LAPS": "10"
+                        }
+                    },
+                    "2002": {
+                        "totalRaces": "18",
+                        "category": "Moto2",
+                        "pos": "2",
+                        "points": "182",
+                        "bike": "Yamaha",
+                        "colorTeam": "a2ea5a",
+                        "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                        "graphs": {
+                            "1ST": "6",
+                            "2ND": "3",
+                            "3RD": "14",
+                            "POLES": "3",
+                            "STARTS": "12",
+                            "FASTEST LAPS": "3"
+                        }
+                    },
+                    "2003": {
+                        "totalRaces": "20",
+                        "category": "Moto1",
+                        "pos": "3",
+                        "points": "182",
+                        "bike": "Yamaha",
+                        "colorTeam": "dc6542",
+                        "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                        "graphs": {
+                            "1ST": "8",
+                            "2ND": "12",
+                            "3RD": "15",
+                            "POLES": "3",
+                            "STARTS": "3",
+                            "FASTEST LAPS": "3"
+                        }
+                    },
+                    "2004": {
+                        "totalRaces": "18",
+                        "category": "Moto1",
+                        "pos": "2",
+                        "points": "182",
+                        "bike": "Yamaha",
+                        "colorTeam": "2b9fd8",
+                        "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                        "graphs": {
+                            "1ST": "12",
+                            "2ND": "3",
+                            "3RD": "16",
+                            "POLES": "3",
+                            "STARTS": "15",
+                            "FASTEST LAPS": "3"
+                        }
+                    },
+                    "2005": {
+                        "totalRaces": "18",
+                        "category": "Moto1",
+                        "pos": "1",
+                        "points": "182",
+                        "bike": "Yamaha",
+                        "colorTeam": "c43e27",
+                        "img": "http:\/\/css.motogp.com\/w2015\/img\/riders\/2016\/101x81\/rider_6060.jpg?8db661ee4eab57b336db4f614ec149a103a25a051e3af3c652deeb2424517216",
+                        "graphs": {
+                            "1ST": "11",
+                            "2ND": "6",
+                            "3RD": "9",
+                            "POLES": "15",
+                            "STARTS": "3",
+                            "FASTEST LAPS": "3"
+                        }
+                    }
+                }
+            }
+        },
+        "slider": {
+            "tpl": "slider_content.html",
+            "data": {
+                "title": "MULTIMEDIA",
+                "slides": {
+                    "slide1": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "http:\/\/i.eurosport.com\/2015\/11\/08\/1728600-36570346-2560-1440.jpg?w=1050",
+                        "linkTo": "#"
+                    },
+                    "slide2": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "http:\/\/i.eurosport.com\/2016\/09\/03\/1925199-40499465-2560-1440.jpg?w=1050",
+                        "linkTo": "#"
+                    },
+                    "slide3": {
+                        "title": "Valentino Rossi",
+                        "type": "img",
+                        "link": "http:\/\/i.eurosport.com\/2016\/04\/23\/1841399-38825211-2560-1440.jpg?w=1050",
+                        "linkTo": "#"
+                    },
+                    "slide4": {
+                        "title": "Valentino Rossi",
+                        "type": "video",
+                        "link": "http:\/\/i.eurosport.com\/2016\/04\/24\/1842451-38846251-2560-1440.jpg?w=1050",
+                        "linkTo": "#"
+                    },
+                    "slide5": {
+                        "title": "Valentino Rossi",
+                        "type": "img",
+                        "link": "https:\/\/4.bp.blogspot.com\/-GGymDZF6f7M\/Vx3mqoCMvyI\/AAAAAAAACTM\/tlXAE2HTpzMWtq6Ea_SVjGm5H0wqLTlsACLcB\/s1600\/1841498-38827191-2560-1440.jpg",
+                        "linkTo": "#"
+                    }
+                }
+            }
+        },
+        "sliderStore": {
+            "tpl": "slider_store.html",
+            "data": {
+                "title": "MERCHANDISING",
+                "ajax": "http:\/\/store.motogp.com\/es\/api\/rider\/109"
+            }
+        },
+        "otherContent": {
+            "tpl": "other_content.html",
+            "data": {
+                "title": "\u00daLTIMAS ACTUALIZACIONES RELACIONADAS",
+                "rider_name": "Valentino Rossi",
+                "bk_gradient": "http:\/\/axelclaverwww.motogp.com:8080\/themes\/default\/css.motogp.com\/img\/riders\/new\/rider_bg_shortcuts.png",
+                "rider_img": "http:\/\/1.bp.blogspot.com\/-6cugLjNH7nY\/UEynT3simcI\/AAAAAAAAUZM\/4kggBTONPT4\/s1600\/852346615_R12_Davies_finish.jpg",
+                "link_news": "http:\/\/axelclaverwww.motogp.com:8080\/en\/",
+                "link_videos": "http:\/\/axelclaverwww.motogp.com:8080\/en\/videos\/",
+                "link_social": "http:\/\/buzz.motogp.com",
+                "link_photos": "http:\/\/axelclaverwww.motogp.com:8080\/en\/photos\/"
+            }
+        }
+    },
+    "linksFooter": []
+}
