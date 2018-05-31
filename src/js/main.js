@@ -1,21 +1,25 @@
 import ScrabbleImage from './Slider/ScrabbleImage';
+import Slider from './Slider/Slider';
 import Polyfills from './common/polyfills';
 import PreloadImages from './Slider/PreloadImages';
 
+new Polyfills();
 class Scrabble{
 	constructor(config){
 		this.config = config;
-
-		new Polyfills();
 
 		this.protos = new Map();
 		this.protos.set('config', config);
 		this.protos.set('scrabble', new ScrabbleImage(config));
 		this.protos.set('preload', new PreloadImages(config.images));
+		this.protos.set('slider', new Slider(config));
 	
 	
 		this.s = new Proxy(this.protos, this.handler());
-		document.addEventListener("scrabble-images-loaded", this.s.imagesLoaded);
+		document.addEventListener("scrabble-images-loaded", (e) => {
+			this.s.imagesLoaded(e)
+			this.s.initSlider()
+		});
 		this.s.initImages();
 
 
@@ -44,7 +48,8 @@ class Scrabble{
         return {
             get: (target, propKey, receiver) => {
                 const keys = Array.from(this.protos.keys());
-                let searchedProto = {}
+				let searchedProto = {}
+				// console.info("Executing: ",propKey)
                 keys.forEach((key) => {
                     const prototype = [overrides].
                         concat(this.protos.get(key)).
@@ -56,12 +61,13 @@ class Scrabble{
                 }, this)
 
                 if (searchedProto) {
-
+					
 					if (propKey==='config'){
 						return this[propKey];
 					}
 					const ref = (params) => {
-						console.log(searchedProto[propKey])
+						console.info("Executing: ",propKey);
+						console.info("Executing in : ",searchedProto.constructor.name);
                         return searchedProto[propKey].call(this.s, params);
                     }
 
@@ -78,6 +84,8 @@ class Scrabble{
 document.addEventListener("DOMContentLoaded", ()=>{
 	const config = {
 		class: "scrabble-wrap",
+		obj: {},
+		images: [],
 		slider:{
 			timeline:{
 				class: "sequence-images-controls-timeline"
@@ -86,7 +94,13 @@ document.addEventListener("DOMContentLoaded", ()=>{
 				class: "sequence-images-controls-slider"
 			}
 		},
-		images:{
+		clip:{
+			container: "sequence-images-landscape-clip",
+			previous: "sequence-images-landscape-prev",
+			active: "sequence-images-landscape-active",
+			next: "sequence-images-landscape-next"
+		},
+		imageConfig:{
 			prefix: "jerez_preview",
 			extension: "jpg",
 			numImages: 43,
@@ -96,5 +110,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
 			showClass: "sequence-images__picture--hide",
 		}
 	}
-	const s = new Scrabble(config);
+	const wrappers = Array.from(document.querySelectorAll("."+config.class));
+	wrappers.forEach((obj) => {
+		config.obj = obj;
+		const s = new Scrabble(config);
+	})
 })

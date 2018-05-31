@@ -11,29 +11,26 @@ export default class ScrabbleImage{
 		let heightContainer = 0;
 	}
 	imagesLoaded(e) {
-		console.log(e.detail.images);
-		const images = e.detail.images;
+		const images = this.config.images;
 		const objs=Array.from(document.querySelectorAll("."+this.config.class));
 
 		objs.forEach((obj)=> {
 			images.forEach((image) => {
-				console.log(image)
 				this.addImage({obj, image})
 			})
 		});
 	}
 	addImage(obj){
-		console.log(obj.image)
 		const containerDiv=document.createElement("DIV");
-		containerDiv.className = this.config.images.class;
+		containerDiv.className = this.config.imageConfig.class;
 	
 		const containerPic = document.createElement("PICTURE");
-		containerPic.className = this.config.images.pictureContainer;
+		containerPic.className = this.config.imageConfig.pictureContainer;
 		containerDiv.appendChild(containerPic)
 	
 		containerPic.appendChild(obj.image);
-		obj.obj.querySelector("."+this.config.images.wrapper).appendChild(containerDiv);
-		
+		console.log(this.config)
+		obj.obj.querySelector("."+this.config.imageConfig.wrapper).appendChild(containerDiv);
 	}
 
 	initSlider (obj, config, step) {
@@ -53,7 +50,6 @@ export default class ScrabbleImage{
 		const pos = e.pageX - parseInt(this.pointer.offsetWidth/2);
 		if (pos>0 && (pos+this.pointer.offsetWidth)<this.timelineWidth){
 			const which = Math.floor(pos/this.step);
-			console.log(which)
 			/*if (which !== this.showImage){
 				this.showImage(this.images, this.images[which]);
 			}*/

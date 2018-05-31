@@ -8,28 +8,21 @@ export default class PreloadImages {
 	}
 
 	initImages() {
-		for (let i = 1;i <= this.config.images.numImages; i++){
+		for (let i = 1;i <= this.config.imageConfig.numImages; i++){
 			const image = new Image();
 			const num = `00${i}`;
-			image.src="images/"+this.config.images.prefix+num.slice(-2)+"."+this.config.images.extension;
-
+			image.src="images/"+this.config.imageConfig.prefix+num.slice(-2)+"."+this.config.imageConfig.extension;
 			image.onload=(e) =>{
-				console.log(e.target)
 				const img = e.target;
-				
-//				const contImage = Array.from()
-console.log(img)
 				this.initImage(img);
 			}
 		}
 	}
 
 	initImage(image){
-		console.log(image)
-		images.push(image);
-		if (images.length === this.config.images.numImages){
+		this.config.images.push(image);
+		if (this.config.images.length === this.config.imageConfig.numImages){
 			console.log("Totes carregades")
-			console.log(images.length)
 			Utils.triggerEvent("scrabble-images-loaded", { images })
 		}
 	}
