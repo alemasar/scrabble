@@ -32,11 +32,8 @@ class Scrabble{
             get: (target, propKey, receiver) => {
                 const keys = Array.from(this.protos.keys());
                 if (this.protos.has(propKey)) {
-
                     return new Proxy(this, this.getProxy());
                 }
-
-
                 return false;
             }
         }

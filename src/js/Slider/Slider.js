@@ -15,7 +15,7 @@ export default class Slider{
 		pointer = this.config.obj.querySelector("."+this.config.slider.pointer.class);
 		const timeline = this.config.obj.querySelector("."+this.config.slider.timeline.class);
 		timelineWidth = timeline.offsetWidth;
-		step = 0
+		step = 1
 		images = this.config.images;
 		showImage = 0;
 
@@ -66,14 +66,23 @@ export default class Slider{
 		const previous = container.querySelector("."+this.config.clip.previous);
 		const active = container.querySelector("."+this.config.clip.active);
 		const next = container.querySelector("."+this.config.clip.next);
-
+console.log(which)
 		if (which>0){
+			if (previous.firstChild){
+				previous.removeChild(previous.firstChild);
+			}
 			previous.appendChild(this.config.images[which-1]);
 		}
-		if (which<this.config.images.length-1){
+		if (which<this.config.images.length-2){
+			if (next.firstChild){
+				next.removeChild(next.firstChild);
+			}
 			next.appendChild(this.config.images[which+1]);
 		}
 		console.log(which)
+		if (active.firstChild){
+			active.removeChild(active.firstChild);
+		}
 		active.appendChild(this.config.images[which]);
 		/*const showedImages = Array.from(this.config.wrapper.querySelectorAll("."+this.config.showClass));
 		showedImages.forEach((img)=>{

@@ -15,6 +15,10 @@ export default class PreloadImages {
 			image.onload=(e) =>{
 				const img = e.target;
 				this.initImage(img);
+				if (i===1){
+					console.log("entro")
+					this.showImage(0)
+				}
 			}
 		}
 	}
