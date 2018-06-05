@@ -8,6 +8,12 @@ export default class PreloadImages {
 	}
 
 	initImages() {
+		const container = this.config.obj.querySelector("."+this.config.clip.container);
+		// const previous = container.querySelector("."+this.config.clip.previous);
+		const active = container.querySelector("."+this.config.clip.active);
+		const img = document.createElement("IMG");
+		active.appendChild(img)
+
 		for (let i = 1;i <= this.config.imageConfig.numImages; i++){
 			const image = new Image();
 			const num = `00${i}`;
@@ -17,7 +23,7 @@ export default class PreloadImages {
 				this.initImage(img);
 				if (i===1){
 					console.log("entro")
-					this.showImage(0)
+					this.showImage(1)
 				}
 			}
 		}

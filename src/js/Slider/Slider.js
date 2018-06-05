@@ -15,7 +15,7 @@ export default class Slider{
 		pointer = this.config.obj.querySelector("."+this.config.slider.pointer.class);
 		const timeline = this.config.obj.querySelector("."+this.config.slider.timeline.class);
 		timelineWidth = timeline.offsetWidth;
-		step = 1
+		step = Math.floor(timelineWidth / this.config.imageConfig.numImages);
 		images = this.config.images;
 		showImage = 0;
 
@@ -36,9 +36,11 @@ export default class Slider{
 	moveElement (e) {
 
 		const pos = e.pageX - parseInt(pointer.offsetWidth/2);
-		console.log(pos)
+		console.log(step)
 		if (pos>0 && (pos+pointer.offsetWidth)<timelineWidth){
 			const which = Math.floor(pos/step);
+			console.log(which)
+			//step=which;
 			this.showImage(which);
 			/*if (which !== this.showImage){
 				this.showImage(this.images, this.images[which]);
@@ -63,12 +65,14 @@ export default class Slider{
 
 	showImage(which){
 		const container = this.config.obj.querySelector("."+this.config.clip.container);
-		const previous = container.querySelector("."+this.config.clip.previous);
-		const active = container.querySelector("."+this.config.clip.active);
-		const next = container.querySelector("."+this.config.clip.next);
-console.log(which)
-		if (which>0){
-			if (previous.firstChild){
+		// const previous = container.querySelector("."+this.config.clip.previous);
+		const active = container.querySelector("."+this.config.clip.active+" img");
+		// const next = container.querySelector("."+this.config.clip.next);
+console.log(this.config.images[which-1])
+	/*	if (which>0){
+			if (active.previousSibling){
+
+				Utils.addClass(active.previousSibling, this.config.clip.previous);
 				previous.removeChild(previous.firstChild);
 			}
 			previous.appendChild(this.config.images[which-1]);
@@ -78,12 +82,11 @@ console.log(which)
 				next.removeChild(next.firstChild);
 			}
 			next.appendChild(this.config.images[which+1]);
-		}
-		console.log(which)
-		if (active.firstChild){
-			active.removeChild(active.firstChild);
-		}
-		active.appendChild(this.config.images[which]);
+		}*/
+		//if (active.firstChild){
+		//	active.removeChild(active.firstChild);
+		//}
+		active.setAttribute("src", this.config.images[which-1].src);
 		/*const showedImages = Array.from(this.config.wrapper.querySelectorAll("."+this.config.showClass));
 		showedImages.forEach((img)=>{
 			Utils.addClass(img, this.config.showClass);
