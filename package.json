@@ -39,6 +39,7 @@
     "json-server": "^0.12.1",
     "node-sass": "^4.7.2",
     "nodemon": "^1.14.11",
+    "proxy-polyfill": "^0.3.0",
     "rxjs": "^5.5.6",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
